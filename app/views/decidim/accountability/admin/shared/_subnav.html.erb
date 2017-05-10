@@ -1,5 +1,13 @@
-<ul>
-  <li><%= link_to t(".results"), results_path %></li>
-  <li><%= link_to t(".statuses"), statuses_path %></li>
-  <li><%= link_to t(".template_texts"), edit_template_texts_path %></li>
-</ul>
+<div class="internal-nav">
+  <ul>
+    <li class="is-active">
+      <%= link_to t(".results"), results_path %>
+    </li>
+    <li>
+      <%= link_to t(".statuses"), statuses_path %>
+    </li>
+    <li>
+      <%= link_to t(".template_texts"), edit_template_texts_path %>
+    </li>
+  </ul>
+</div>
