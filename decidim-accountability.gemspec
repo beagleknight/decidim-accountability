@@ -18,8 +18,6 @@ Gem::Specification.new do |s|
   s.add_dependency "decidim-core"
   s.add_dependency "decidim-comments"
 
-  s.add_dependency "rails", "~> 5.0.2"
-
   s.add_development_dependency "decidim-dev"
   s.add_development_dependency "decidim-comments"
   s.add_development_dependency "decidim-meetings"
